@@ -4,10 +4,10 @@ import GenericButton from "@/components/GenericButton";
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <div>
         <Header>
-                      <H1>To Do List Planner</H1>
+          <H1>To Do List Planner</H1>
         </Header>
       </div>
       <div>
