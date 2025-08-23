@@ -5,22 +5,27 @@ import H1 from "@/components/H1";
     children: ReactNode
 }*/
 
-export default function Footer() {
+const Footer = () => {
     return(
-        <footer className="w-full bg-blue-900 flex">
-            <div className="flex-1/3 self-center">
+        <footer className="w-full bg-black flex">
+            <div className="basis-1/3 self-center text-white">
                 <H1>About Me!</H1>
             </div>
-            
-            <div className="flex-1/3 self-center">
-                <img src="/public/linkedin_logo.jpg" alt="LinkedIn_Logo"/>
-            LinkedIn
+            <div className="basis-1/3 flex text-white text-center items-center">
+                <a href="https://www.linkedin.com/in/david-ibanez-moya" target="_blank">
+                    <img src="/linkedIn.png" alt="LinkedIn_Logo" width="80px" height="80px"/>
+                </a>
+                <p>My LinkedIn</p>
             </div>
-            <div className="flex-1/3 self-center">
-                <img src="/public/GitHub_Logo.png" alt="GitHub_Logo"/>
-            GitHub
+            <div className="basis-1/3 flex text-white items-center">
+                <a href="https://github.com/DavidIbanezMoya" target="_blank">
+                    <img src="/GitHub.png" alt="GitHub_Logo" width="80px" height="80px"/>
+                </a>
+            <p>My personal GitHub!</p>
             </div>
 
         </footer>
     )
 }
+
+export default Footer;
