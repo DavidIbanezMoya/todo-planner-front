@@ -9,20 +9,22 @@ import Footer from "./Footer";
  */
 export default function Forms () {
     return (
-        <div className="bg-gray-300">
+        <div className="bg-gray-300 border-2 border-black p-2 min-h-full min-w-full">
                 <p>Welcome to the app, please log in or register</p>
-                <div>
-                    <p className="">Username</p>
+                <div className="py-2">
+                    <p className="text-xs">Username</p>
                     <Input/>
                 </div>
-                <div>
-                    <p className="">Password</p>
+                <div className="py-2">
+                    <p className="text-xs">Password</p>
                     <Input/>
                 </div>
-                <div>
+                <div className="flex justify-center m-10">
                     <GenericButton>Login</GenericButton>
                 </div>
-                <p className="underline italic">I forgot my password</p>
+                <div className="flex justify-center m-5">
+                    <p className="underline italic">I forgot my password</p>
+                </div>
         </div>
 
     )
