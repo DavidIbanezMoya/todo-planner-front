@@ -1,6 +1,6 @@
 import H1 from "@/components/H1";
-import LogInForm from "@/components/LogInForm";
 import MainContainer from "@/components/MainContainer";
+import LogIn from "@/components/LogIn";
 import Footer from "@/components/Footer";
 
 export default function Login() {
@@ -12,7 +12,7 @@ export default function Login() {
                         <H1>To Do List</H1>
                     </div>
                     <div className="col-span-3 row-span-4 col-start-4 row-start-2">
-                        <LogInForm/>
+                        <LogIn/>
                     </div>
                 </div>
 

@@ -1,3 +1,0 @@
-/**This class will be used in the future to create the component and logic to send the Email to the user
- * OnClick => Open a Modal with the input...
-*/
